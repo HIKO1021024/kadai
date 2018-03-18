@@ -1,9 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/Test2.scala:35:13: B is already defined as variable B[0m
-[0m[[0m[31merror[0m] [0m[0m        var B = A.combinations(2).toArray[0m
-[0m[[0m[31merror[0m] [0m[0m            ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/Test2.scala:20:15: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Array[Array[Int]][0m
-[0m[[0m[31merror[0m] [0m[0m required: Array[Int][0m
-[0m[[0m[31merror[0m] [0m[0m        A = B.toArray[0m
-[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/Test2.scala:40:7: not found: value breakable[0m
+[0m[[0m[31merror[0m] [0m[0m      breakable {[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/Test2.scala:45:11: not found: value break[0m
+[0m[[0m[31merror[0m] [0m[0m          break[0m
+[0m[[0m[31merror[0m] [0m[0m          ^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

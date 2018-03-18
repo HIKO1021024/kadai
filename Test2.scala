@@ -37,12 +37,13 @@ import scala.util.control.Breaks
       //昇順に並び変えているので、組み合わせの数は必ずA[i]<A[j]となり、かつ重複の組み合わせは無い。
       //iとjで繰り返し処理で探すより効率が良い。
       var flag = false
-      breakable {
+      val b = new Breaks
+      b.breakable {
         B.foreach( { i =>
         if(i.sum == K ){
           var flag = true
           //最初にヒットした時点で検索を終了
-          break
+          b.break
           }
         })
       }
