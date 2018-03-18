@@ -41,7 +41,7 @@ import scala.util.control.Breaks
       b.breakable {
         B.foreach( { i =>
         if(i.sum == K ){
-          var flag = true
+          flag = true
           //最初にヒットした時点で検索を終了
           b.break
           }
