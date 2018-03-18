@@ -1,9 +1,9 @@
-//おそらくこの問題はいわゆる「組み合わせ」を問うものだと想定される。
-//よって母数をできる限り減らした上で、組み合わせのリストを生成し、
-//そのリストからA[i]<A[j]を精査する方法が効率が良い。
-
-//与えられる配列は必ず2要素以上入っているものを想定している
-
+/*
+おそらくこの問題はいわゆる「組み合わせ」を問うものだと想定される。
+よって母数をできる限り減らした上で、組み合わせのリストを生成し、
+そのリストからA[i]<A[j]を精査する。
+なお、与えられる配列は必ず2要素以上入っているものを想定している
+*/
 import scala.util.Random
 import scala.util.control.Breaks
 
@@ -30,8 +30,6 @@ import scala.util.control.Breaks
         B.foreach( { i =>
           if(i.sum == K ){
             flag = true
-            println(i.sum)
-            println(K)
             //最初にヒットした時点で検索を終了(処理速度向上のため)
             b.break
           }
@@ -44,4 +42,3 @@ import scala.util.control.Breaks
       }
     }
   }
-   
