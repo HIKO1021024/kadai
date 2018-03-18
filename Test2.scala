@@ -9,12 +9,11 @@ import scala.util.control.Breaks
 
   object Kumiawase{
     def main(args: Array[String]){
-      //まずはランダムな配列Aを作成
+      //まずはランダムな配列AとKを作成
       val r = new Random
       //var A: Array[Int] = Array(1,2,3,4,5) //存在しない場合のテスト用
       var A: Array[Int] = Array.empty
       for(i <- 0 to 3000) A = A :+ r.nextInt(100)
-      //Kも生成
       val K = r.nextInt(100)
       //最低値からKへの必要な数値を算出
       val T = K - A.min
