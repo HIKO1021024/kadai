@@ -1,16 +1,9 @@
-[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/Test2.scala:28:62: not found: type array[0m
-[0m[[0m[31merror[0m] [0m[0m    def Rend_arr(valmin: long, valmax: long, arry_max: long):array {   [0m
-[0m[[0m[31merror[0m] [0m[0m                                                             ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/Test2.scala:28:26: not found: type long[0m
-[0m[[0m[31merror[0m] [0m[0m    def Rend_arr(valmin: long, valmax: long, arry_max: long):array {   [0m
-[0m[[0m[31merror[0m] [0m[0m                         ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/Test2.scala:28:40: not found: type long[0m
-[0m[[0m[31merror[0m] [0m[0m    def Rend_arr(valmin: long, valmax: long, arry_max: long):array {   [0m
-[0m[[0m[31merror[0m] [0m[0m                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/Test2.scala:28:56: not found: type long[0m
-[0m[[0m[31merror[0m] [0m[0m    def Rend_arr(valmin: long, valmax: long, arry_max: long):array {   [0m
-[0m[[0m[31merror[0m] [0m[0m                                                       ^[0m
-[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/Test2.scala:28:9: only traits and abstract classes can have declared but undefined members[0m
-[0m[[0m[31merror[0m] [0m[0m    def Rend_arr(valmin: long, valmax: long, arry_max: long):array {   [0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0m5 errors found[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/Test2.scala:35:13: B is already defined as variable B[0m
+[0m[[0m[31merror[0m] [0m[0m        var B = A.combinations(2).toArray[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/ec2-user/environment/Test2.scala:20:15: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Array[Array[Int]][0m
+[0m[[0m[31merror[0m] [0m[0m required: Array[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        A = B.toArray[0m
+[0m[[0m[31merror[0m] [0m[0m              ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

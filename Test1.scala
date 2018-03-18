@@ -19,7 +19,7 @@ import scala.util.Random
       var i = DenseVector(c.toDouble, f.toDouble)  
       var (x, y) = Renritu_cul(g, h, i)
       //計算したx,yの結果により出力を変える
-      println("x =" + x,"y=" + y) //でも一応出力しておく
+      println("x =" + x,"y=" + y) //一応出力
       (x.toString, y.toString) match {
         case ("-Infinity","Infinity") => println("解が存在しません")
         case ("NaN","NaN") => println("解が複数あります")
